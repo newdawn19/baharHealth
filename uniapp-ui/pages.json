@@ -1,7 +1,7 @@
 {
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#00acac",
+    "selectedColor": "#7c5cff",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
@@ -31,7 +31,7 @@
       "path": "pages/index/index",
       "style": {
         "navigationBarTitleText": "首页",
-        "navigationBarBackgroundColor": "#00acac",
+        "navigationBarBackgroundColor": "#7c5cff",
         "navigationBarTextStyle": "white",
         "enablePullDownRefresh": true
       }
@@ -40,7 +40,7 @@
       "path": "pages/category/index",
       "style": {
         "navigationBarTitleText": "微店",
-        "navigationBarBackgroundColor": "#00acac",
+        "navigationBarBackgroundColor": "#7c5cff",
         "navigationBarTextStyle": "white"
       }
     },
@@ -239,7 +239,7 @@
       "style": {
         "navigationBarTitleText": "订单详情",
         "navigationBarTextStyle": "white",
-        "navigationBarBackgroundColor": "#00acac"
+        "navigationBarBackgroundColor": "#7c5cff"
       }
     },
     {
@@ -545,7 +545,7 @@
      }
   },
   "globalStyle": {
-    "navigationBarBackgroundColor": "#00acac",
+    "navigationBarBackgroundColor": "#7c5cff",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "white",
     "backgroundTextStyle": "dark"

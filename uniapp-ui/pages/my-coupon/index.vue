@@ -8,7 +8,7 @@
 
       <!-- 卡券列表 -->
       <view class="goods-list">
-          <view class="goods-item" v-for="(item, index) in list.content" :key="index">
+          <view class="goods-item bahar-card" v-for="(item, index) in list.content" :key="index">
             <!-- 单列卡券 -->
             <view class="dis-flex" @click="onDetail(item.id, item.type)">
                 <!-- 卡券图片 -->
@@ -48,9 +48,9 @@
     </mescroll-body>
     <!-- 领取入口 -->
     <view class="footer-bar" @click="toReceiveMore">
-      <u-icon v-if="type == 'C'" name="coupon" size="28" color="#00acac"></u-icon>
-      <u-icon v-if="type == 'T'" name="clock" size="28" color="#00acac"></u-icon>
-      <u-icon v-if="type == 'P'" name="rmb-circle" size="28" color="#00acac"></u-icon>
+      <u-icon v-if="type == 'C'" name="coupon" size="28" color="#7c5cff"></u-icon>
+      <u-icon v-if="type == 'T'" name="clock" size="28" color="#7c5cff"></u-icon>
+      <u-icon v-if="type == 'P'" name="rmb-circle" size="28" color="#7c5cff"></u-icon>
       <text>{{ type == 'C' ? '领券中心' : type == 'T' ? '领取计次卡' : '购买储值卡' }}</text>
     </view>
   </view>
