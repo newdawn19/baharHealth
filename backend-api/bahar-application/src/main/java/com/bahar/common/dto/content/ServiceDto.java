@@ -8,8 +8,7 @@ import java.util.Date;
 /**
  * 服务DTO
  *
- * Created by FSQ
- * CopyRight https://www.fuint.cn
+ * CopyRight https://www.bahar.cn
  */
 @Data
 public class ServiceDto implements Serializable {
