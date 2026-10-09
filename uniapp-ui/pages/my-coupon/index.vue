@@ -310,7 +310,7 @@
    text-align: center;
    color: #fff;
    border-radius: 5rpx;
-   background: linear-gradient(to right, $bahar-theme, $bahar-line);
+   background: linear-gradient(to right, $bahar-theme, $bahar-theme);
  }
 }
 </style>
